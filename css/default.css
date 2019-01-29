@@ -1,14 +1,40 @@
 
-/* Menu Logo */
+/* Menu */
 .menu_logo {
   margin: 0 auto;
   position: absolute;
-  right: 20%;
-  top: 30%;
-  width: 60%;
+  right: 45%;
+  top: 8%;
   z-index: 1;
+  width: 11%;
+  height: auto;
+}
+.aktual{
+  background-color: #fb9300ff;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 700;
+  padding: 5px 0 3px 0;
+}
+.aktual p {
+  margin-bottom: 0;
+}
+.bg-light{
+  background-color: #fb9300be !important;
 }
 
-.bg-light{
-  background-color: #fb9300ff !important;
+.nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-family: 'Sarabun', sans-serif;
+
+}
+.navbar-nav a:hover {
+  font-weight: 700;
+}
+.navbar-nav{
+    text-align: right;
+}
+.navbar-brand{
+  font-family: 'Overlock', cursive;
+  font-size: 1.75rem;
 }
