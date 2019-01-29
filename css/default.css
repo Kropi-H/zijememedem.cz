@@ -1,0 +1,14 @@
+
+/* Menu Logo */
+.menu_logo {
+  margin: 0 auto;
+  position: absolute;
+  right: 20%;
+  top: 30%;
+  width: 60%;
+  z-index: 1;
+}
+
+.bg-light{
+  background-color: #fb9300ff !important;
+}
