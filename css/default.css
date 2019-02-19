@@ -14,7 +14,7 @@
   color: rgba(255, 255, 255, 0.9);
   font-family: 'Sarabun', sans-serif;
   font-weight: 700;
-  padding: 5px 0 3px 0;
+  padding: 5px 20px 3px 20px;
 }
 .aktual p {
   margin-bottom: 0;
@@ -26,42 +26,77 @@
 .nav-link {
   color: rgba(255, 255, 255, 0.9) !important;
   font-family: 'Sarabun', sans-serif;
-
 }
+
 .navbar-nav a:hover {
   font-weight: 700;
 }
+
 .navbar-nav{
     text-align: right;
 }
+
 .navbar-brand{
   font-family: 'Overlock', cursive;
   font-size: 1.75rem;
 }
+#about_us .h1 {
+font-family: 'Sarabun', sans-serif;
+font-size: 2.6rem;
+font-weight: bold;
+border-bottom: 5px solid #fb9300ff;
+padding-bottom: 1%;
+}
+
+#about_us .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.about_us_text p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  word-spacing: 0.1rem;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+.about_us_image {
+  border-radius: 5px;
+  margin-top: 10%;
+
+}
+
+.row_margin {
+  margin: 10% 0;
+}
 
 /* about us */
-
-.about_us {
-  background-image: url("../images/bee_background.jpeg");
-  background-size: cover;
-  background-position: center;
-  color: black;
-  height: 500px;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-.about_us_inner {
-background-color: rgba(255, 255, 255, 0.8);
-padding: 40px 60px;
-}
-.about_us h3 {
-
-}
-
 .marketing .col-lg-6 {
     margin-bottom: 1.5rem;
     text-align: center;
     }
+
+/* our products */
+
+#products .underline {
+font-family: 'Sarabun', sans-serif;
+font-size: 2.6rem;
+font-weight: bold;
+border-bottom: 5px solid #fb9300ff;
+width: 416px;
+margin: 0 auto;
+}
+
+.products {
+  margin-top: 5%;
+}
+
+/* OFFER */
+
+#offer p {
+  text-align: justify;
+}
 
 /* Footer     */
 .footer {
