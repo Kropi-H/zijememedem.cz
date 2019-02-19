@@ -38,3 +38,38 @@
   font-family: 'Overlock', cursive;
   font-size: 1.75rem;
 }
+
+/* about us */
+
+.about_us {
+  background-image: url("../images/bee_background.jpeg");
+  color: white;
+height: 500px;
+background-size: cover;
+  background-position: center;
+}
+
+.marketing .col-lg-6 {
+
+    margin-bottom: 1.5rem;
+    text-align: center;
+    }
+
+/* Footer     */
+.footer {
+  background-color: #fb9300ff;
+  color: white;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 3rem;
+}
+.footer a {
+  color: white;
+}
+.footer .fas {
+  font-size: 2rem;
+}
+
+.footer p {
+  margin-bottom: .2rem;
+}
