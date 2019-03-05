@@ -15,25 +15,18 @@
 </head>
 
 <body>
-  <div class="container">
-    <!-- Nav Start-->
-    <section id="aktual">
-      <p class="text-center">
-        Momentálně je všechen med ze sezóny 2018 vyprodán. Budete-li chtít mít jistotu, že v roce 2019 se na Vás dostane, neváhejte si med rezervovat.
-      </p>
-    </section>
-  </div> <!-- End of contianer -->
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-light">
+
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-light menu_logo">
     <!--  Start Of Container -->
     <div class="container">
-      <a class="navbar-brand" href="#">
-        ŽijemeMedem
-      </a>
-      <div class="">
+      <a class="navbar-brand" href="#">ŽijemeMedem</a>
+      <div class="menu-logo">
         <a class="navbar-nav" href="#">
-          <img src="images/zijememedem_logo.svg" class="d-inline-block menu_logo" id="Logo" alt="" style="width:60px">
+          <img src="images/zijememedem_logo.svg" class="d-inline-block" id="Logo" alt="" style="width:60px">
         </a>
+
       </div>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -124,59 +117,80 @@
       </p>
     </div>
   </section>
-          <footer class="footer text-center">
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-<div class="col-lg-6">
-  <i class="fas fa-map-signs"></i>
-  <p>
-    Vláďa a Peťa Soukupovi
-    Borotín 316
-    391 35 Borotín
-  </p>
-  <a href="mailto:info@zijememedem.cz">
-    <i class="fas fa-at"></i>
-    <p> info@zijememedem.cz
-  </a>
-  </p>
-  <i class="fas fa-phone"></i>
-  <p>
-    +420 724 294 437
-  </p>
-</div>
-<div class="col-lg-6">
-  <form class="form-signin">
-          <h1 class="h3 mb-3 font-weight-normal">Napište nám</h1>
+  <footer class="footer text-center">
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <i class="fas fa-map-signs"></i>
+            <p>
+              Vláďa a Peťa Soukupovi
+              Borotín 316
+              391 35 Borotín
+            </p>
+            <a href="mailto:info@zijememedem.cz">
+              <i class="fas fa-at"></i>
+              <p> info@zijememedem.cz
+            </a>
+            </p>
+            <i class="fas fa-phone"></i>
+            <p>
+              +420 724 294 437
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <form class="form-signin">
+              <h1 class="h3 mb-3 font-weight-normal">Napište nám</h1>
+              <div class="form-label-group">
+                <textarea class="form-control" id="inputText" placeholder="Zde napište text" name="name" rows="8" cols="80"></textarea>
+              </div>
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+              </div>
+              <div>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Odeslat dotaz</button>
+            </form>
+          </div>
 
-        <div class="form-label-group">
-          <textarea class="form-control" id="inputText" placeholder="Zde napište text" name="name" rows="8" cols="80"></textarea>
         </div>
-        <div class="form-label-group">
-          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-        </div>
-        <div>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Odeslat dotaz</button>
-      </form>
-</div>
-
-</div>
-</div>
+      </div>
 
 
       </div>
-    </div>
-        </footer>
+      </div>
+  </footer>
   </section>
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog-centered modal-dialog">
+
+      <!-- Modal content-->
+      <div data-dismiss="modal" class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">NOVINKY</h1>
+        </div>
+        <div class="modal-body">
+          <p>
+            Momentálně je všechen med ze sezóny 2018 vyprodán. Budete-li chtít mít jistotu, že v roce 2019 se na Vás dostane, neváhejte si med rezervovat.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-lg btn-primary btn-block" data-dismiss="modal">Zavřít oznámení</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="scripts/bootstrap.min.js"></script>
   <script src="scripts/script.js"></script>
 
-  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-  <script src="scripts/bootstrap.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> --> -->
+  <!-- <script src="scripts/bootstrap.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </body>
 
 </html>

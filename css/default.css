@@ -1,14 +1,19 @@
+/*color  #fb9300be
+  color header #101C28
+*/
+
+body{
+  background-color: #FFDFC1;
+}
 
 /* Menu */
 .menu_logo {
-  margin: 0 auto;
-  position: absolute;
-  right: 45%;
-  top: 8%;
-  z-index: 1;
-  width: 11%;
-  height: auto;
+  margin: auto 0;
 }
+.menu-logo a {
+    text-align: center;
+}
+
 #aktual {
   background-color: #fb9300ff;
   color: rgba(255, 255, 255, 0.9);
@@ -20,7 +25,7 @@
   margin-bottom: 0;
 }
 .bg-light{
-  background-color: #fb9300be !important;
+  background-color: #101C28 !important;
 }
 
 .nav-link {
@@ -98,6 +103,18 @@ margin: 0 auto;
   text-align: justify;
 }
 
+/* BUTTON */
+
+.btn-primary {
+  background-color: #222F3F;
+  border-color: #222F3F;
+}
+
+.btn-primary:hover {
+  background-color: #101C28;
+  border-color: #101C28;
+}
+
 /* Footer     */
 .footer {
   background-color: #fb9300ff;
@@ -115,4 +132,16 @@ margin: 0 auto;
 
 .footer p {
   margin-bottom: .2rem;
+}
+
+/* MODAL */
+
+.modal-content {
+  background-color: #fb9300be;
+  color: white;
+}
+.modal-header .modal-title {
+  color: white;
+  margin: 0 auto;
+  font-weight: bold;
 }
