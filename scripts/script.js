@@ -12,13 +12,11 @@ window.onscroll = function() {
 };
 
 function growShrinkLogo() {
-  var Logo = document.getElementById("Logo");
-  var info = document.getElementById("aktual");
+  var Logo = document.getElementById("logo");
   if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-    Logo.style.width = '50px';
-    info.style.visibility = 'hidden';
+    Logo.classList.add("smaller");
   } else {
-    Logo.style.width = '90px';
+    Logo.classList.remove("smaller");
   }
 }
 
