@@ -3,17 +3,19 @@
 */
 
 body{
-  background-color: #FFDFC1;
+  background-image:   url("../images/lavender_001.jpg");
+  background-size:    cover;
+  background-repeat:  no-repeat;
+  background-position:50% -195px;
+  background-attachment: fixed;
 }
 
 /* Menu */
-.menu_logo {
-  margin: auto 0;
-}
+
 .menu-logo {
   position: absolute;
-  left: 50%;
-  margin-left: -50px !important;  /* 50% of your logo width */
+  left: 47%;
+  margin-left: -53px !important;  /* 50% of your logo width */
   display: block;
 }
 .menu-logo img {
@@ -25,8 +27,63 @@ body{
   margin-top: .2rem !important;
   width: 60px !important;
   transition: 0.3s;
-  margin-left: 1.5rem;
+  margin-left: 3.5rem;
 }
+
+/* carousel */
+
+.carousel-caption{
+  bottom: 100px;
+}
+.carousel-control-next, .carousel-control-prev {
+  top:64px;
+}
+
+  .carousel-item {
+    margin-top:5rem;
+    height: 32rem;
+    background-color: #fb9300be;
+  }
+
+  .main-text
+  {
+      position: absolute;
+      top:8rem;
+      width: 96.66666666666666%;
+      color: #FFF;
+      z-index: 100 !important;
+  }
+
+  .main-text h1 {
+    font-size: 3em;
+    font-weight: 400;
+  }
+  .btn-min-block
+  {
+      min-width: 170px;
+      line-height: 26px;
+  }
+  .btn-clear
+  {
+      color: #FFF;
+      background-color: transparent;
+      border-color: #FFF;
+      margin-right: 15px;
+  }
+  .btn-clear:hover
+  {
+      color: #000;
+      background-color: #FFF;
+  }
+
+  /* carisel item */
+
+  .carousel-caption h1.text {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+
+  }
 
 #aktual {
   background-color: #fb9300ff;
@@ -39,7 +96,7 @@ body{
   margin-bottom: 0;
 }
 .bg-light{
-  background-color: #101C28 !important;
+  background-color: #2e2e2e !important;
 }
 .bg-lignt.smaller {
   height: 50px;
@@ -64,8 +121,11 @@ a.nav-item.nav-link:hover {
   font-family: 'Overlock', cursive;
   font-size: 1.75rem;
 }
-#about_us #products {
-  padding-top: 10rem;
+#products {
+  padding-top: 1rem;
+}
+#about_us {
+  padding-top: 1rem;
 }
 #about_us .h1 {
 font-family: 'Sarabun', sans-serif;
@@ -172,7 +232,7 @@ margin: 0 auto;
 }
 
 /* logo size */
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1010px){
 .menu-logo {
   visibility: hidden;
   }
