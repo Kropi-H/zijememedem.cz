@@ -3,11 +3,14 @@
 */
 
 body{
-  background-image:   url("../images/lavender_001.jpg");
+  background-image: url("../images/honey-1958464_1920.jpg");
   background-size:    cover;
   background-repeat:  no-repeat;
   background-position:50% -195px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
+}
+.text-shadow {
+  text-shadow: 3px 4px 3px #fb6a00;
 }
 
 /* Menu */
@@ -30,60 +33,21 @@ body{
   margin-left: 3.5rem;
 }
 
-/* carousel */
-
-.carousel-caption{
-  bottom: 100px;
-}
-.carousel-control-next, .carousel-control-prev {
-  top:64px;
+/* motto */
+h1.text {
+  line-height: 4rem;
+  font-size: 3rem;
 }
 
-  .carousel-item {
-    margin-top:5rem;
-    height: 32rem;
-    background-color: #fb9300be;
-  }
-
-  .main-text
-  {
-      position: absolute;
-      top:8rem;
-      width: 96.66666666666666%;
-      color: #FFF;
-      z-index: 100 !important;
-  }
-
-  .main-text h1 {
-    font-size: 3em;
-    font-weight: 400;
-  }
-  .btn-min-block
-  {
-      min-width: 170px;
-      line-height: 26px;
-  }
-  .btn-clear
-  {
-      color: #FFF;
-      background-color: transparent;
-      border-color: #FFF;
-      margin-right: 15px;
-  }
-  .btn-clear:hover
-  {
-      color: #000;
-      background-color: #FFF;
-  }
-
-  /* carisel item */
-
-  .carousel-caption h1.text {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 2em;
-
-  }
+.full_width {
+  font-family: 'Caveat', cursive;
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-color: #2e2e2eb3;;
+  margin-top: 6rem;
+  padding: 3rem 0;
+}
 
 #aktual {
   background-color: #fb9300ff;
@@ -96,7 +60,7 @@ body{
   margin-bottom: 0;
 }
 .bg-light{
-  background-color: #2e2e2e !important;
+  background-color: #2e2e2eb3 !important;
 }
 .bg-lignt.smaller {
   height: 50px;
@@ -184,6 +148,15 @@ margin: 0 auto;
 
 #offer p {
   text-align: justify;
+  font-size: 1.1rem;
+}
+
+.offer h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 4rem;
+  border-bottom: 1px solid white;
+  margin-bottom: 35px;
+  padding-bottom: 19px;
 }
 
 /* BUTTON */
@@ -200,7 +173,7 @@ margin: 0 auto;
 
 /* Footer     */
 .footer {
-  background-color: #fb9300ff;
+  background-color: #2e2e2eb3;
   color: white;
   font-weight: 500;
   line-height: 40px;
@@ -213,8 +186,14 @@ margin: 0 auto;
   font-size: 2rem;
 }
 
-.footer p {
-  margin-bottom: .2rem;
+/* offer */
+
+.offer {
+  background-color: #2e2e2eb3;
+  color: white;
+  font-weight: 400;
+  padding: 3.5rem 3rem;
+  margin-bottom: 2rem;
 }
 
 /* MODAL */
@@ -222,7 +201,7 @@ margin: 0 auto;
 .modal-content {
   background-color: #fb9300be;
   color: white;
-  font-weight: 500;
+  font-weight: bold;
   text-align: justify;
 }
 .modal-header .modal-title {
