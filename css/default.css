@@ -7,6 +7,7 @@ body{
   background-size:    cover;
   background-repeat:  no-repeat;
   background-position:50% -195px;
+  color:white;
   /* background-attachment: fixed; */
 }
 .text-shadow {
@@ -123,12 +124,6 @@ padding-bottom: 1%;
   margin: 10% 0;
 }
 
-/* about us */
-.marketing .col-lg-6 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-    }
-
 /* our products */
 
 #products .underline {
@@ -140,8 +135,28 @@ width: 416px;
 margin: 0 auto;
 }
 
+.marketing {
+  background-color: #2e2e2eb3;
+  margin-top: 3rem;
+}
+
+.marketing .col-lg-6{
+  padding: 2.5rem 4rem;
+
+}
+
+.text-center{
+
+  font-size: 3rem;
+}
+
+.marketing .col-lg-6 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    }
 .products {
   margin-top: 5%;
+  margin-bottom: 6rem;
 }
 
 /* OFFER */
@@ -162,13 +177,13 @@ margin: 0 auto;
 /* BUTTON */
 
 .btn-primary {
-  background-color: #222F3F;
-  border-color: #222F3F;
+  background-color: #fb9300ff;
+  border-color: #fb9300ff;
 }
 
 .btn-primary:hover {
-  background-color: #101C28;
-  border-color: #101C28;
+  background-color: #d86100;;
+  border-color: #d86100;;
 }
 
 /* Footer     */
@@ -185,6 +200,11 @@ margin: 0 auto;
 .footer .fas {
   font-size: 2rem;
 }
+.footer p{
+  color:#fb9300ff;
+  font-size: 1rem;
+  font-weight: bold;
+}
 
 /* offer */
 
@@ -196,14 +216,25 @@ margin: 0 auto;
   margin-bottom: 2rem;
 }
 
+.undersocre {
+  text-decoration: underline;
+}
+
 /* MODAL */
 
 .modal-content {
-  background-color: #fb9300be;
+  background-color: #2e2e2eb3;
   color: white;
-  font-weight: bold;
   text-align: justify;
 }
+.modal-header {
+  border-bottom: 1px solid #fb9300ff;
+}
+
+.modal-footer {
+  border-top: 1px solid #fb9300ff;
+}
+
 .modal-header .modal-title {
   color: white;
   font-weight: bold;
