@@ -24,8 +24,9 @@ body{
 }
 .menu-logo img {
   margin-top: 10rem;
-  width: 180px;
+  height: 180px;
   transition: 0.3s;
+  width: 180px;
 }
 .smaller {
   margin-top: .2rem !important;
@@ -50,16 +51,6 @@ h1.text {
   padding: 3rem 0;
 }
 
-#aktual {
-  background-color: #fb9300ff;
-  color: rgba(255, 255, 255, 0.9);
-  font-family: 'Sarabun', sans-serif;
-  font-weight: 700;
-  padding: 5px 20px 3px 20px;
-}
-.aktual p {
-  margin-bottom: 0;
-}
 .bg-light{
   background-color: #2e2e2eb3 !important;
 }
@@ -86,6 +77,14 @@ a.nav-item.nav-link:hover {
   font-family: 'Overlock', cursive;
   font-size: 1.75rem;
 }
+
+/* products */
+
+.marketing h1 {
+  padding-top:3rem;
+  font-size: 3rem;
+}
+
 #products {
   padding-top: 1rem;
 }
@@ -190,7 +189,6 @@ margin: 0 auto;
 .footer {
   background-color: #2e2e2eb3;
   color: white;
-  font-weight: 500;
   line-height: 40px;
   padding: 3rem;
 }
@@ -198,12 +196,18 @@ margin: 0 auto;
   color: white;
 }
 .footer .fas {
+    color:#fb9300ff;
   font-size: 2rem;
 }
 .footer p{
-  color:#fb9300ff;
   font-size: 1rem;
-  font-weight: bold;
+  line-height: 1.2rem;
+}
+
+.footer .contact .adress{
+  display: inline-block;
+  vertical-align: top;
+  margin: 1rem 6rem;
 }
 
 /* offer */
