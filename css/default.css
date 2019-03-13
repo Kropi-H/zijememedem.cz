@@ -8,7 +8,6 @@ body{
   background-repeat:  no-repeat;
   background-position:50% -195px;
   color:white;
-  /* background-attachment: fixed; */
 }
 .text-shadow {
   text-shadow: 3px 4px 3px #fb6a00;
@@ -46,9 +45,12 @@ h1.text {
   color: white;
   width: 100%;
   text-align: center;
-  background-color: #2e2e2eb3;;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
   padding: 3rem 0;
+}
+.container .motto {
+  margin-top: 10%;
+  background-color: #2e2e2eb3;;
 }
 
 .bg-light{
@@ -80,14 +82,16 @@ a.nav-item.nav-link:hover {
 
 /* products */
 
-.marketing h1 {
-  padding-top:3rem;
+#products h1 {
+  padding-top: 2rem;
   font-size: 3rem;
+  font-weight: 400;
+  background-color: #2e2e2eb3;
+  padding-bottom: 2rem;
+  margin-bottom: .5rem;
+  margin-top: 10%;
 }
 
-#products {
-  padding-top: 1rem;
-}
 #about_us {
   padding-top: 1rem;
 }
@@ -136,7 +140,6 @@ margin: 0 auto;
 
 .marketing {
   background-color: #2e2e2eb3;
-  margin-top: 3rem;
 }
 
 .marketing .col-lg-6{
@@ -145,17 +148,19 @@ margin: 0 auto;
 }
 
 .text-center{
-
   font-size: 3rem;
 }
 
 .marketing .col-lg-6 {
-    margin-bottom: 1.5rem;
     text-align: center;
-    }
+  }
 .products {
-  margin-top: 5%;
   margin-bottom: 6rem;
+}
+
+.marketing h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 2.5rem;
 }
 
 /* OFFER */
