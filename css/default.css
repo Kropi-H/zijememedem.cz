@@ -3,14 +3,11 @@
 */
 
 body{
-  background-image: url("../images/honey-1958464_1920.jpg");
-  background-size:    cover;
-  background-repeat:  no-repeat;
-  background-position:50% -195px;
+  background-color: #fb9300ff;
   color:white;
 }
 .text-shadow {
-  text-shadow: 3px 4px 3px #fb6a00;
+  text-shadow: 3px 4px 3px #c47c17;
 }
 
 /* Menu */
@@ -36,32 +33,45 @@ body{
 
 /* motto */
 h1.text {
-  line-height: 4rem;
-  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fb9300;
+  line-height: 7rem;
+  font-size: 4rem;
+  text-align: left;
+  position: relative;
+  top: 11px;
+  left: 399px;
+  text-shadow: 2px 0px 3px black, 4px 5px 4px white;
 }
 
 .full_width {
+  background-image: url("../images/boris-smokrovic-174784-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 2059px;
   font-family: 'Caveat', cursive;
-  color: white;
-  width: 100%;
+  color: black;
   text-align: center;
-  /* margin-top: 6rem; */
   padding: 3rem 0;
+  min-height: 606px;
+  background-position: 50% -270px;
+  margin-top: 3%;
 }
+
 .container .motto {
   margin-top: 10%;
-  background-color: #2e2e2eb3;;
+  background-color: #fb9300ff;
 }
 
 .bg-light{
-  background-color: #2e2e2eb3 !important;
+  background-color: #fb9300ff !important;
+  box-shadow:0px 13px 20px whitesmoke;
 }
 .bg-lignt.smaller {
   height: 50px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 1) !important;
+  color: #2e2e2e !important;
   font-family: 'Sarabun', sans-serif;
 }
 
@@ -70,14 +80,16 @@ h1.text {
 }
 
 a.nav-item.nav-link:hover {
-  color: #fb9300ff !important;
+  color: white !important;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .navbar-brand{
+  color: #2e2e2e !important;
   font-family: 'Overlock', cursive;
   font-size: 1.75rem;
+  font-weight: bolder;
 }
 
 /* products */
@@ -86,7 +98,7 @@ a.nav-item.nav-link:hover {
   padding-top: 2rem;
   font-size: 3rem;
   font-weight: 400;
-  background-color: #2e2e2eb3;
+  background-color: #fb9300ff;
   padding-bottom: 2rem;
   margin-bottom: .5rem;
   margin-top: 10%;
@@ -139,7 +151,7 @@ margin: 0 auto;
 }
 
 .marketing {
-  background-color: #2e2e2eb3;
+  background-color: #fb9300ff;
 }
 
 .marketing .col-lg-6{
@@ -192,13 +204,13 @@ margin: 0 auto;
 
 /* Footer     */
 .footer {
-  background-color: #2e2e2eb3;
-  color: white;
+  background-color: #fb9300ff;
+  color: black;
   line-height: 40px;
   padding: 3rem;
 }
 .footer a {
-  color: white;
+  color: black;
 }
 .footer .fas {
     color:#fb9300ff;
@@ -218,7 +230,7 @@ margin: 0 auto;
 /* offer */
 
 .offer {
-  background-color: #2e2e2eb3;
+  background-color: #fb9300ff;
   color: white;
   font-weight: 400;
   padding: 3.5rem 3rem;
