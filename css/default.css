@@ -34,14 +34,14 @@ body{
 /* motto */
 h1.text {
   text-transform: uppercase;
-  color: #fb9300;
-  line-height: 7rem;
+  color: #6b1a00;
+  line-height: 8rem;
   font-size: 4rem;
   text-align: left;
   position: relative;
-  top: 11px;
-  left: 399px;
-  text-shadow: 2px 0px 3px black, 4px 5px 4px white;
+  text-shadow: 1px 1px 1px #6b1a00, 4px 5px 4px white;
+  padding: 0px 66px;
+  top: 1%;
 }
 
 .full_width {
@@ -71,7 +71,7 @@ h1.text {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #2e2e2e !important;
+  color: #1b0300 !important;
   font-family: 'Sarabun', sans-serif;
 }
 
@@ -86,7 +86,7 @@ a.nav-item.nav-link:hover {
 }
 
 .navbar-brand{
-  color: #2e2e2e !important;
+  color: #6b1a00 !important;
   font-family: 'Overlock', cursive;
   font-size: 1.75rem;
   font-weight: bolder;
@@ -95,12 +95,11 @@ a.nav-item.nav-link:hover {
 /* products */
 
 #products h1 {
+  color:#6b1a00;
   padding-top: 2rem;
   font-size: 3rem;
   font-weight: 400;
   background-color: #fb9300ff;
-  padding-bottom: 2rem;
-  margin-bottom: .5rem;
   margin-top: 10%;
 }
 
@@ -155,8 +154,12 @@ margin: 0 auto;
 }
 
 .marketing .col-lg-6{
-  padding: 2.5rem 4rem;
+  padding: 2.5rem 2rem;
+}
 
+#products .fas {
+  color:#6b1a00;
+  font-size: 5rem;
 }
 
 .text-center{
@@ -173,19 +176,30 @@ margin: 0 auto;
 .marketing h2 {
   font-family: 'Caveat', cursive;
   font-size: 2.5rem;
+  color: #6b1a00;
+}
+
+.marketing p {
+  background-color: white;
+  color: #6b1a00;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 14px white;
+  margin-top: 1.5rem;
 }
 
 /* OFFER */
 
 #offer p {
+  color: #6b1a00;
   text-align: justify;
   font-size: 1.1rem;
 }
 
 .offer h1 {
+  color: #6b1a00;
   font-family: 'Caveat', cursive;
   font-size: 4rem;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #6b1a00;
   margin-bottom: 35px;
   padding-bottom: 19px;
 }
@@ -193,8 +207,8 @@ margin: 0 auto;
 /* BUTTON */
 
 .btn-primary {
-  background-color: #fb9300ff;
-  border-color: #fb9300ff;
+  background-color: #6b1a00;
+  border-color: #6b1a00;
 }
 
 .btn-primary:hover {
@@ -213,7 +227,7 @@ margin: 0 auto;
   color: black;
 }
 .footer .fas {
-    color:#fb9300ff;
+    color:#6b1a00;
   font-size: 2rem;
 }
 .footer p{
@@ -231,10 +245,9 @@ margin: 0 auto;
 
 .offer {
   background-color: #fb9300ff;
-  color: white;
+  color: #6b1a00;;
   font-weight: 400;
-  padding: 3.5rem 3rem;
-  margin-bottom: 2rem;
+  padding: 5.5rem 3rem;
 }
 
 .undersocre {
@@ -244,16 +257,16 @@ margin: 0 auto;
 /* MODAL */
 
 .modal-content {
-  background-color: #2e2e2eb3;
+  background-color: #fb9300ff;
   color: white;
   text-align: justify;
 }
 .modal-header {
-  border-bottom: 1px solid #fb9300ff;
+  border-bottom: 1px solid white;
 }
 
 .modal-footer {
-  border-top: 1px solid #fb9300ff;
+  border-top: 1px solid white;
 }
 
 .modal-header .modal-title {
@@ -262,9 +275,24 @@ margin: 0 auto;
   margin: 0 auto;
 }
 
+.modal-content p {
+  color: #6b1a00;
+}
+
 /* logo size */
 @media only screen and (max-width: 1010px){
 .menu-logo {
   visibility: hidden;
   }
+
+
+prvek {
+
+}
+h1.text {
+  font-size: 3.6rem;
+  margin-left: -50px;
+  top: 0%;
+  line-height: 1.6;
+}
 }
