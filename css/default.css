@@ -35,25 +35,26 @@ body{
 h1.text {
   text-transform: uppercase;
   color: #6b1a00;
-  line-height: 8rem;
-  font-size: 4rem;
+  line-height: 5.2rem;
+  font-size: 2.1rem;
   text-align: left;
   position: relative;
   text-shadow: 1px 1px 1px #6b1a00, 4px 5px 4px white;
   padding: 0px 66px;
-  top: 1%;
+  top: 13%;
+  font-weight: lighter;
 }
 
 .full_width {
   background-image: url("../images/boris-smokrovic-174784-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: 2059px;
-  font-family: 'Caveat', cursive;
+  font-family: 'Signika', sans-serif;
   color: black;
   text-align: center;
   padding: 3rem 0;
   min-height: 606px;
-  background-position: 50% -270px;
+  background-position: 50% -202px;
   margin-top: 3%;
 }
 
@@ -64,15 +65,16 @@ h1.text {
 
 .bg-light{
   background-color: #fb9300ff !important;
-  box-shadow:0px 13px 20px whitesmoke;
+  box-shadow:0px 13px 20px #6b1a00;
 }
+
 .bg-lignt.smaller {
   height: 50px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #1b0300 !important;
-  font-family: 'Sarabun', sans-serif;
+  color: #6b1a00 !important;
+  font-family: 'Signika', sans-serif;
 }
 
 .nav-item {
@@ -81,15 +83,13 @@ h1.text {
 
 a.nav-item.nav-link:hover {
   color: white !important;
-  font-weight: bold;
   transition: 0.3s;
 }
 
 .navbar-brand{
   color: #6b1a00 !important;
-  font-family: 'Overlock', cursive;
+  font-family: 'Signika', sans-serif;
   font-size: 1.75rem;
-  font-weight: bolder;
 }
 
 /* products */
@@ -169,21 +169,28 @@ margin: 0 auto;
 .marketing .col-lg-6 {
     text-align: center;
   }
+
+.frame {
+  background-color: #fec400;
+    box-shadow: 0 0 5px #fec400;
+    padding: 5px;
+}
+
 .products {
   margin-bottom: 6rem;
 }
 
 .marketing h2 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Signika', sans-serif;
   font-size: 2.5rem;
   color: #6b1a00;
 }
 
 .marketing p {
-  background-color: white;
-  color: #6b1a00;
+  background-color: #6b1a00;
+  color: white;
   padding: 1.5rem;
-  box-shadow: 0px 0px 14px white;
+  box-shadow: 0px 0px 14px #6b1a00;
   margin-top: 1.5rem;
 }
 
@@ -197,7 +204,7 @@ margin: 0 auto;
 
 .offer h1 {
   color: #6b1a00;
-  font-family: 'Caveat', cursive;
+  font-family: 'Signika', sans-serif;
   font-size: 4rem;
   border-bottom: 1px solid #6b1a00;
   margin-bottom: 35px;
@@ -244,7 +251,7 @@ margin: 0 auto;
 /* offer */
 
 .offer {
-  background-color: #fb9300ff;
+  background-color: #fec400;
   color: #6b1a00;;
   font-weight: 400;
   padding: 5.5rem 3rem;
@@ -262,15 +269,15 @@ margin: 0 auto;
   text-align: justify;
 }
 .modal-header {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #6b1a00;
 }
 
 .modal-footer {
-  border-top: 1px solid white;
+  border-top: 1px solid #6b1a00;
 }
 
 .modal-header .modal-title {
-  color: white;
+  color: #6b1a00;
   font-weight: bold;
   margin: 0 auto;
 }
@@ -290,9 +297,10 @@ prvek {
 
 }
 h1.text {
-  font-size: 3.6rem;
+  font-size: 2.1rem;
   margin-left: -50px;
   top: 0%;
-  line-height: 1.6;
+  line-height: 1.5;
+  font-weight: lighter;
 }
 }
