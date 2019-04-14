@@ -12,6 +12,10 @@ body{
 
 /* Menu */
 
+a:hover {
+  cursor: pointer;
+}
+
 .menu-logo {
   position: absolute;
   left: 47%;
@@ -101,6 +105,8 @@ a.nav-item.nav-link:hover {
   font-weight: 400;
   background-color: #fb9300ff;
   margin-top: 10%;
+  border-bottom: 1px solid #6b1a00;
+  padding-bottom: 2%;
 }
 
 #about_us {
@@ -208,7 +214,7 @@ margin: 0 auto;
   font-size: 4rem;
   border-bottom: 1px solid #6b1a00;
   margin-bottom: 35px;
-  padding-bottom: 19px;
+  padding-bottom: 2%;
 }
 
 /* BUTTON */
@@ -235,8 +241,10 @@ margin: 0 auto;
 }
 .footer .fas {
     color:#6b1a00;
-  font-size: 2rem;
+    font-size: 2rem;
+    padding-bottom: 5%;
 }
+
 .footer p{
   font-size: 1rem;
   line-height: 1.2rem;
@@ -246,6 +254,19 @@ margin: 0 auto;
   display: inline-block;
   vertical-align: top;
   margin: 1rem 6rem;
+}
+
+.footer h1 {
+  color: #6b1a00;
+  font-family: 'Signika', sans-serif;
+  font-size: 4rem;
+  border-bottom: 1px solid #6b1a00;
+  margin-bottom: 35px;
+  padding-bottom: 2%;
+}
+
+.spacer {
+  height: 1.2rem;
 }
 
 /* offer */
@@ -303,4 +324,11 @@ h1.text {
   line-height: 1.5;
   font-weight: lighter;
 }
+
+.full_width {
+  background-size: 897px;
+  /* min-height: 606px; */
+  background-position: 65% 9px;
+
+
 }
