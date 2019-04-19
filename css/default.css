@@ -3,7 +3,7 @@
 */
 
 body{
-  background-color: #fb9300ff;
+  background-color: #fb9300;
   color:white;
 }
 .text-shadow {
@@ -37,16 +37,21 @@ a:hover {
 
 /* motto */
 h1.text {
-  text-transform: uppercase;
   color: #6b1a00;
-  line-height: 5.2rem;
-  font-size: 2.1rem;
+  line-height: 5.5rem;
+  font-size: 2.7rem;
   text-align: left;
   position: relative;
   text-shadow: 1px 1px 1px #6b1a00, 4px 5px 4px white;
   padding: 0px 66px;
-  top: 13%;
+  top: 27%;
   font-weight: lighter;
+}
+
+h1.text span {
+  line-height: 8.5rem;
+  font-size: 3.2rem;
+  font-weight: normal;
 }
 
 .full_width {
@@ -64,11 +69,11 @@ h1.text {
 
 .container .motto {
   margin-top: 10%;
-  background-color: #fb9300ff;
+  background-color: #fb9300;
 }
 
 .bg-light{
-  background-color: #fb9300ff !important;
+  background-color: #fb9300 !important;
   box-shadow:0px 13px 20px #6b1a00;
 }
 
@@ -81,8 +86,27 @@ h1.text {
   font-family: 'Signika', sans-serif;
 }
 
-.nav-item {
-  font-weight: bold;
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .nav-item {
+    font-weight: bold;
+  }
+  .menu-logo img {
+    margin-top:0;
+  }
+
+  .smaller {
+    margin-top: -5.45rem !important;
+  }
+
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top:0px;
+  z-index: 1;
 }
 
 a.nav-item.nav-link:hover {
@@ -103,7 +127,7 @@ a.nav-item.nav-link:hover {
   padding-top: 2rem;
   font-size: 3rem;
   font-weight: 400;
-  background-color: #fb9300ff;
+  background-color: #fb9300;
   margin-top: 10%;
   border-bottom: 1px solid #6b1a00;
   padding-bottom: 2%;
@@ -116,7 +140,7 @@ a.nav-item.nav-link:hover {
 font-family: 'Sarabun', sans-serif;
 font-size: 2.6rem;
 font-weight: bold;
-border-bottom: 5px solid #fb9300ff;
+border-bottom: 5px solid #fb9300;
 padding-bottom: 1%;
 }
 
@@ -150,13 +174,13 @@ padding-bottom: 1%;
 font-family: 'Sarabun', sans-serif;
 font-size: 2.6rem;
 font-weight: bold;
-border-bottom: 5px solid #fb9300ff;
+border-bottom: 5px solid #fb9300;
 width: 416px;
 margin: 0 auto;
 }
 
 .marketing {
-  background-color: #fb9300ff;
+  background-color: #fb9300;
 }
 
 .marketing .col-lg-6{
@@ -231,7 +255,7 @@ margin: 0 auto;
 
 /* Footer     */
 .footer {
-  background-color: #fb9300ff;
+  background-color: #fb9300;
   color: black;
   line-height: 40px;
   padding: 3rem;
@@ -285,7 +309,7 @@ margin: 0 auto;
 /* MODAL */
 
 .modal-content {
-  background-color: #fb9300ff;
+  background-color: #fb9300;
   color: white;
   text-align: justify;
 }
@@ -313,12 +337,8 @@ margin: 0 auto;
   visibility: hidden;
   }
 
-
-prvek {
-
-}
 h1.text {
-  font-size: 2.1rem;
+  font-size: 2.1rem;#fb9300
   margin-left: -50px;
   top: 0%;
   line-height: 1.5;
@@ -329,6 +349,12 @@ h1.text {
   background-size: 897px;
   /* min-height: 606px; */
   background-position: 65% 9px;
+}
 
+h1.text span {
+  line-height: 4.5rem;
+  font-size: 3rem;
+  font-weight: normal;
+}
 
 }
