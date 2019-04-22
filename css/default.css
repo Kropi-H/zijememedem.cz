@@ -44,13 +44,14 @@ h1.text {
   position: relative;
   text-shadow: 1px 1px 1px #6b1a00, 4px 5px 4px white;
   padding: 0px 66px;
-  top: 27%;
+  top: 11%;
   font-weight: lighter;
+  font-style: italic;
 }
 
 h1.text span {
-  line-height: 8.5rem;
-  font-size: 3.2rem;
+  line-height: 27.5rem;
+  font-size: 2.7rem;
   font-weight: normal;
 }
 
